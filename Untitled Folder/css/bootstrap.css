@@ -4402,6 +4402,14 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
 }
 
+#nav li a{
+    color:#000;
+    text-decoration:none;
+    display:block;
+    padding:0px 10px;
+    text-align: center;
+
+}
 .navbar .brand {
   display: block;
   float: left;
