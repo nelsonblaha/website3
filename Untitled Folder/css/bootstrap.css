@@ -6117,7 +6117,6 @@ a.badge:focus {
 }
 
 .hero-unit {
-  padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
@@ -6127,16 +6126,21 @@ a.badge:focus {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-}
+          text-align: right;
 
+}
 .hero-unit h1 {
+  display: block;
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
 }
-
+.hero-unit img {
+  display: inline;
+  z-index:-1;
+}
 .hero-unit li {
   line-height: 30px;
 }
