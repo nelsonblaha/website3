@@ -6117,17 +6117,19 @@ a.badge:focus {
 }
 
 .hero-unit {
+  position: absolute;
+  top: 150px;
+  right: 5%;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #eeeeee;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
           text-align: right;
-
+          z-index: 10;
 }
 .hero-unit h1 {
   display: block;
