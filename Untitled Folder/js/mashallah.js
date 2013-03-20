@@ -15,17 +15,22 @@ $(document).ready(function() {
     //       }
         
     //   )});
-            $(function() {                   
-  $('.col').waypoint(
-  offset: 'bottom-in-view'              
-    function() {
-      $('#skill1').addClass('activebar1');
-      $('#skill2').addClass('activebar2');
-      $('#skill3').addClass('activebar3');
-      $('#skill4').addClass('activebar4');
-    }
-  )
-});
+
+$('#skill4').waypoint(function() {
+  $(this).css({
+    borderColor: 'blue'
+  });
+}, { offset: 'bottom-in-view' });
+//             $(function() {                   
+//   $('#skill4').waypoint(         
+//     function() {
+//       $('#skill1').addClass('activebar1');
+//       $('#skill2').addClass('activebar2');
+//       $('#skill3').addClass('activebar3');
+//       $('#skill4').addClass('activebar4');
+//     }
+//   )
+// });
 // ANIMATING TEXT IN FROM SIDES
     $(function() {   
                     $("#about1").waypoint(function() {

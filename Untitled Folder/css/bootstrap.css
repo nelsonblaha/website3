@@ -178,6 +178,7 @@ textarea {
   }
   a,
   a:visited {
+    color: #ff3300;
     text-decoration: underline;
   }
   a[href]:after {
@@ -6130,11 +6131,13 @@ a.badge:focus {
           border-radius: 6px;
           text-align: right;
           z-index: 10;
+          color: #fff;
+   text-shadow: 6px 3px 12px #000; 
 }
 .hero-unit h1 {
   display: block;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 6em;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
