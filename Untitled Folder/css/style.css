@@ -1,3 +1,10 @@
+#herotext{
+max-width: 60%;
+max-height: inherit;
+overflow: hidden;
+display: block;
+}
+
 /*  log in for photos */
 .circle{
 margin-top: 30%;
@@ -45,7 +52,6 @@ padding-top:60px;
 content: '';
     display: table;
 
-
 }
 .logocircle-grid:after{
      clear: both;
@@ -75,7 +81,7 @@ content: '';
 }
 .logocircle-grid a{
 text-align: center;
-color: blue;
+color: #ff3300;
 }
 .gitlogo{
     background-image: url(../img/octocatsmall.png);
@@ -205,6 +211,8 @@ color: #fff;
     width:592px;
     margin:0 auto;
     position:relative;
+
+margin-bottom: 200px;
 }
 
 .col { width:600px; 
